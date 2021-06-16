@@ -1,5 +1,5 @@
 server.port : 9001
-spring.application.name: hotel-service
+spring.application.name: HOTEL-SERVICE
 
 spring.datasource.url: jdbc:postgresql://localhost:5432/HotelService
 spring.datasource.username: postgres
