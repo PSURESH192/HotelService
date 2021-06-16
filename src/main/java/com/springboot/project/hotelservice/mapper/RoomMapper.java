@@ -52,7 +52,7 @@ public class RoomMapper {
     private Room convertModelToEntity(RoomDetails roomDetails) {
         Optional<Room> optionalRoom = roomRepository.findById(roomDetails.getRoomId());
 
-        Room room = optionalRoom.isPresent() ? optionalRoom.get() : null;
+        Room room = optionalRoom.isPresent() ? optionalRoom.get() : new Room();
 
         if (StringUtils.isNotBlank(roomDetails.getRoomType())) {
             room.setRoomType(RoomTypes.valueOf(roomDetails.getRoomType()));

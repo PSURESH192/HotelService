@@ -123,6 +123,6 @@ public class HotelServiceTest {
 
     @Test
     public void testDeleteHotel(){
-        hotelService.deleteHotel(UUID.randomUUID().toString());
+        Assert.assertNotNull(hotelService.deleteHotel(UUID.randomUUID().toString()));
     }
 }

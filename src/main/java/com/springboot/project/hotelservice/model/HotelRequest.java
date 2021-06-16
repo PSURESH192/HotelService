@@ -6,8 +6,7 @@ import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Setter
-@Getter
+@Data
 @Builder
 public class HotelRequest {
 
