@@ -8,6 +8,7 @@ import com.springboot.project.hotelservice.model.HotelResponse;
 import com.springboot.project.hotelservice.repository.HotelRepository;
 import com.springboot.project.hotelservice.repository.RoomRepository;
 import com.springboot.project.hotelservice.service.HotelService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -17,6 +18,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+@Slf4j
 @Transactional
 @Service
 public class HotelServiceImpl implements HotelService {

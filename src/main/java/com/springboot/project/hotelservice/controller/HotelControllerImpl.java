@@ -4,6 +4,7 @@ import com.springboot.project.hotelservice.entity.Hotel;
 import com.springboot.project.hotelservice.model.HotelRequest;
 import com.springboot.project.hotelservice.model.HotelResponse;
 import com.springboot.project.hotelservice.service.HotelService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +15,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
+@Slf4j
 @RestController
 public class HotelControllerImpl implements HotelController{
 
