@@ -1,0 +1,22 @@
+{
+  "hotelId": "f387022e93774015aede2d4f5453a2aa",
+  "hotelName": "Orbis",
+  "contact": 9090989897,
+  "address": "KPHB",
+  "city": "Hyderbad",
+  "zipcode": 560080,
+  "roomDetails": [
+    {
+      "roomId": 46,
+      "roomType": "PREMIUM",
+      "totalRooms": 2,
+      "price": 2500
+    },
+    {
+      "roomId": 47,
+      "roomType": "KING_BED",
+      "totalRooms": 5,
+      "price": 3000
+    }
+  ]
+}
